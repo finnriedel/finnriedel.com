@@ -1,3 +1,48 @@
 body{
 	background-color: #161616;
 }
+
+.title{
+	color: aliceblue;
+	user-select: none;
+
+}
+
+.navi a:link{
+
+	color: #8d8d8d;
+	text-decoration: none;
+	font-family: Cooper;
+
+}
+
+.navi a:hover{
+
+	color: #707070;
+
+}
+
+.navi a:active{
+
+	color: #26FF34;
+
+}
+
+.navi a:visited{
+
+	color: #8d8d8d;
+
+}
+
+nav{
+
+	word-spacing: 5px;
+
+	user-select: none;
+
+	margin: 20px;
+	position: absolute;
+	right: 0;
+	top: 0;
+
+}
