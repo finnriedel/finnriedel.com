@@ -7,10 +7,6 @@ body{
 	background-color: rgba(0,0,150,000%);
 
 }
-.title{
-	color: aliceblue;
-	user-select: none;
-}
 
 #nav-element-navigation a{
 	text-decoration: none;
@@ -51,6 +47,12 @@ nav{
 	padding-left: 1rem;
 }
 
+#nav-element-logo-sub{
+	font-size: 10px;
+	position: relative;
+	top: -20px;
+}
+
 *{
 	box-sizing: border-box;
 }
@@ -58,4 +60,53 @@ nav{
 main{
 	flex-grow: 1;
 	background-color: rgba(150,0,0,00%);
+	display: grid;
+	height: 100%;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 2fr 1fr;
+}
+
+.main-grid{
+	border: 1px rgba(150,0,0,00%) solid;
+}
+
+#terminal-window{
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: 600;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #EBDBB2;
+}
+
+#terminal-window p{
+	border-top: 30px lightgray solid;
+	border-radius: 5px;
+	background-color: #32302F;
+	width: 70%;
+	padding: 10px;
+	padding-bottom: 100px;
+}
+
+
+#terminal-window a{
+	color: #98971A;
+	text-decoration: none;
+}
+
+.blinking-cursor {
+	font-weight: bold;
+	font-size: 20px;
+	color: #EBDBB2;
+	animation: 1.3s blink step-end infinite;
+}
+
+@keyframes "blink" {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: #EBDBB2;
+	}
 }
