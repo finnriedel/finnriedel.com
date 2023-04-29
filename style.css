@@ -89,6 +89,17 @@ main{
 	padding-bottom: 100px;
 }
 
+#description{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Epilogue, serif;
+	font-size: 50px;
+}
+
+#description p{
+	max-width: 40%;
+}
 
 #terminal-window a{
 	color: #98971A;
