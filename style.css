@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 body{
 	background-color: ghostwhite;
 	display: flex;
@@ -93,7 +95,7 @@ main{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: Epilogue, serif;
+	font-family: 'Quicksand', serif;
 	font-size: 50px;
 }
 
