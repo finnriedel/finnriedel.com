@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Indie+Flower&display=swap');
 
 body{
 	background-color: ghostwhite;
@@ -95,7 +95,7 @@ main{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: 'Quicksand', serif;
+	font-family: 'Darumadrop One', cursive;
 	font-size: 50px;
 }
 
@@ -106,6 +106,12 @@ main{
 #terminal-window a{
 	color: #98971A;
 	text-decoration: none;
+}
+
+#main-grid-bottom-left{
+	font-family: 'Indie Flower', cursive;
+	font-size: 100px;	
+
 }
 
 .blinking-cursor {
