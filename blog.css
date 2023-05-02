@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Indie+Flower&display=swap');
+
+body{
+	background-color: ghostwhite;
+	display: flex;
+	height: 100vh;
+	margin: 0px;
+	flex-direction: column;
+	background-color: rgba(0,0,150,000%);
+
+}
+
+#nav-element-navigation a{
+	text-decoration: none;
+	font-family: "Rubrik", sans-serif;
+	color: darkslategrey;
+	font-size: 18px;
+	font-weight: 500;
+}
+#nav-element-navigation a:hover{
+	color: #707070;
+}
+#nav-element-navigation a:active{
+	color: #26FF34;
+}
+
+nav{
+	user-select: none;
+	display: flex;
+	width: 100%;
+	background-color: rgba(0,150,0,00%);
+}
+
+#nav-element-navigation{
+	display: flex;
+	gap: 15px;
+	margin-left: auto;
+	padding-right: 1rem;
+	padding-top: 1rem;
+	background-color: rgba(0,150,0,00%);
+}
+
+#nav-element-logo{
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: rgba(0,150,0,00%);
+	justify-content: center;
+	padding-left: 1rem;
+}
+
+#nav-element-logo-sub{
+	font-size: 10px;
+	position: relative;
+	top: -20px;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+main{
+	flex-grow: 1;
+	background-color: rgba(150,0,0,10%);
+	display: grid;
+	height: 100%;
+}
+
+#article{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 25%;
+	padding-right: 25%;
+	border-color: red, solid;	
+	font-family: 'Indie Flower', curisve;
+}
+
+#article h1{
+	font-size: 50px;
+}
