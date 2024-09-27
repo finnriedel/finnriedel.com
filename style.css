@@ -58,14 +58,21 @@ nav{
 *{
 	box-sizing: border-box;
 }
-
-main{
+/* MAIN */
+#page-index{
 	flex-grow: 1;
 	background-color: rgba(150,0,0,00%);
 	display: grid;
 	height: 100%;
 	grid-template-columns: 2fr 1fr;
 	grid-template-rows: 2fr 1fr;
+}
+
+#page-photography{
+	padding-top: 35px;
+	background-color: rgba(150,0,0,00%);
+	display: block;
+	margin: auto;
 }
 
 .main-grid{
@@ -112,6 +119,10 @@ main{
 	font-family: 'Indie Flower', cursive;
 	font-size: 40px;	
 
+}
+
+#photo-grid{
+	max-width: 10%;
 }
 
 .blinking-cursor {
