@@ -8,10 +8,10 @@ class IncludeHeader extends HTMLElement{
 
 		<div id="nav-element-navigation" class="nav-element">
 			<a href="https://www.finn-riedel.de">Photography</a>
-			<span style="position: relative; top: 15px;"><a href=blog.html>Blog</a></span>
-			<a href="https://eskeet.it/">Projects</a>
-			<span style="position: relative; top: 15px;"><a href="blog.html">Playground</a></span>
-			<a href="contact.html">Contact</a>
+			<span style="position: relative; top: 15px;"><a href="https://www.finn-riedel.de/blog">Blog</a></span>
+			<a href="https://www.finn-riedel.de">Projects</a>
+			<span style="position: relative; top: 15px;"><a href="https://www.finn-riedel.de/blog">Playground</a></span>
+			<a href="https://www.finn-riedel.de/contact">Contact</a>
 		</div>
 	</nav>
     `
